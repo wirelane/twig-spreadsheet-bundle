@@ -30,21 +30,6 @@
         "count": 2
     },
     {
-        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::testXmlCacheDirectory",
-        "message": "This branch of PhpSpreadsheet is deprecated. Please migrate to release 5 or later ASAP.",
-        "count": 1
-    },
-    {
-        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::testXmlCacheDirectory",
-        "message": "Using the \"Twig_Node_Expression_Array\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Expression\\ArrayExpression\" instead.",
-        "count": 1
-    },
-    {
-        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::testXmlCacheDirectory",
-        "message": "Using the \"Twig_Node_Expression_Constant\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Expression\\ConstantExpression\" instead.",
-        "count": 1
-    },
-    {
         "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\OdsXlsXlsxFunctionalTest::setUp",
         "message": "Since symfony/framework-bundle 5.1: Not setting the \"framework.router.utf8\" configuration option is deprecated, it will default to \"true\" in version 6.0.",
         "count": 1
@@ -73,11 +58,6 @@
         "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\OdsXlsXlsxFunctionalTest::testSimple",
         "message": "Since symfony/routing 6.4: The \"annotation\" route type is deprecated, use the \"attribute\" route type instead.",
         "count": 2
-    },
-    {
-        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Twig\\CsvOdsXlsXlsxErrorTwigTest::testDocumentError",
-        "message": "Using the \"Twig_Error_Syntax\" class is deprecated since Twig version 2.7, use \"Twig\\Error\\SyntaxError\" instead.",
-        "count": 1
     },
     {
         "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Twig\\CsvOdsXlsXlsxTwigTest::testDocumentSimple",
@@ -127,6 +107,96 @@
     {
         "location": "Mpdf\\Writer\\ResourceWriter",
         "message": "Method \"Psr\\Log\\LoggerAwareInterface::setLogger()\" might add \"void\" as a native return type declaration in the future. Do the same in implementation \"Mpdf\\Writer\\ResourceWriter\" now to avoid errors or add an explicit @return annotation to suppress this message.",
+        "count": 1
+    },
+    {
+        "location": "PhpOffice\\PhpSpreadsheet\\Spreadsheet::__construct",
+        "message": "This branch of PhpSpreadsheet is deprecated. Please migrate to release 5 or later ASAP.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_BaseNodeVisitor\" class is deprecated since Twig version 2.7, use \"Twig\\NodeVisitor\\AbstractNodeVisitor\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Compiler\" class is deprecated since Twig version 2.7, use \"Twig\\Compiler\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Error_Loader\" class is deprecated since Twig version 2.7, use \"Twig\\Error\\LoaderError\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Error_Runtime\" class is deprecated since Twig version 2.7, use \"Twig\\Error\\RuntimeError\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Error_Syntax\" class is deprecated since Twig version 2.7, use \"Twig\\Error\\SyntaxError\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Extension\" class is deprecated since Twig version 2.7, use \"Twig\\Extension\\AbstractExtension\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Loader_Filesystem\" class is deprecated since Twig version 2.7, use \"Twig\\Loader\\FilesystemLoader\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Node\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Node\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Node_Expression\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Expression\\AbstractExpression\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Node_Expression_Array\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Expression\\ArrayExpression\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Node_Expression_Constant\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Expression\\ConstantExpression\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Node_Expression_MethodCall\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Expression\\MethodCallExpression\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Node_Expression_Name\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Expression\\NameExpression\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Node_Text\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\TextNode\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_SimpleFunction\" class is deprecated since Twig version 2.7, use \"Twig\\TwigFunction\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_Token\" class is deprecated since Twig version 2.7, use \"Twig\\Token\" instead.",
+        "count": 1
+    },
+    {
+        "location": "Symfony\\Component\\ErrorHandler\\DebugClassLoader::loadClass",
+        "message": "Using the \"Twig_TokenParser\" class is deprecated since Twig version 2.7, use \"Twig\\TokenParser\\AbstractTokenParser\" instead.",
         "count": 1
     }
 ]

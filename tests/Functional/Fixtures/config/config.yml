@@ -1,18 +1,15 @@
 framework:
     secret: test
     test: ~
-    session:
-        storage_id: session.storage.filesystem
-    form:            true
-    csrf_protection: true
-    validation:
-        enabled: true
-        enable_annotations: true
     router:
-        resource: "%kernel.root_dir%/config/routing.yml"
-    templating:
-        engines: ['twig']
+        resource: "%kernel.project_dir%/config/routing.yml"
 
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+
+services:
+    MewesK\TwigSpreadsheetBundle\Tests\Functional\Fixtures\TestBundle\Controller\:
+        resource: "%kernel.project_dir%/TestBundle/Controller/"
+        autowire: true
+        autoconfigure: true

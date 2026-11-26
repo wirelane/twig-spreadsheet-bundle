@@ -18,7 +18,7 @@ class SyntaxCheckNodeVisitor extends \Twig_BaseNodeVisitor
     /**
      * {@inheritdoc}
      */
-    public function getPriority()
+    public function getPriority(): int
     {
         return 0;
     }
@@ -28,7 +28,7 @@ class SyntaxCheckNodeVisitor extends \Twig_BaseNodeVisitor
      *
      * @throws \Twig_Error_Syntax
      */
-    protected function doEnterNode(\Twig_Node $node, \Twig_Environment $env)
+    protected function doEnterNode(\Twig_Node $node, \Twig_Environment $env): \Twig_Node
     {
         try {
             if ($node instanceof BaseNode) {
@@ -50,7 +50,7 @@ class SyntaxCheckNodeVisitor extends \Twig_BaseNodeVisitor
     /**
      * {@inheritdoc}
      */
-    protected function doLeaveNode(\Twig_Node $node, \Twig_Environment $env)
+    protected function doLeaveNode(\Twig_Node $node, \Twig_Environment $env): \Twig_Node
     {
         array_pop($this->path);
 

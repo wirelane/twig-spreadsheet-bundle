@@ -15,7 +15,7 @@ class Configuration implements ConfigurationInterface
      *
      * @throws \RuntimeException
      */
-    public function getConfigTreeBuilder()
+    public function getConfigTreeBuilder(): TreeBuilder
     {
         $treeBuilder = new TreeBuilder('mewes_k_twig_spreadsheet');
         $rootNode = $treeBuilder->getRootNode();

@@ -17,7 +17,7 @@ use Symfony\Component\HttpFoundation\Response;
  */
 abstract class BaseFunctionalTest extends WebTestCase
 {
-    const CACHE_PATH = './../../var/cache/twig';
+    const CACHE_PATH = './../../var/cache';
     const RESULT_PATH = './../../var/result';
 
     /**
@@ -38,8 +38,8 @@ abstract class BaseFunctionalTest extends WebTestCase
     public static function setUpBeforeClass(): void
     {
         // remove temp files
-        Filesystem::remove(sprintf('%s/%s', static::CACHE_PATH, str_replace('\\', DIRECTORY_SEPARATOR, static::class)));
-        Filesystem::remove(sprintf('%s/%s', static::RESULT_PATH, str_replace('\\', DIRECTORY_SEPARATOR, static::class)));
+        Filesystem::remove(sprintf('%s/%s/%s', __DIR__, static::CACHE_PATH, str_replace('\\', DIRECTORY_SEPARATOR, static::class)));
+        Filesystem::remove(sprintf('%s/%s/%s', __DIR__, static::RESULT_PATH, str_replace('\\', DIRECTORY_SEPARATOR, static::class)));
     }
 
     /**

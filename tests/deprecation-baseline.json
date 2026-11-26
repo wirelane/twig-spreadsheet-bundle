@@ -1,0 +1,132 @@
+[
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::setUp",
+        "message": "Since symfony/framework-bundle 5.1: Not setting the \"framework.router.utf8\" configuration option is deprecated, it will default to \"true\" in version 6.0.",
+        "count": 1
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::setUp",
+        "message": "Since symfony/framework-bundle 6.1: Not setting the \"framework.http_method_override\" config option is deprecated. It will default to \"false\" in 7.0.",
+        "count": 2
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::setUp",
+        "message": "Since symfony/framework-bundle 6.4: Not setting the \"framework.handle_all_throwables\" config option is deprecated. It will default to \"true\" in 7.0.",
+        "count": 2
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::setUp",
+        "message": "Since symfony/framework-bundle 6.4: Not setting the \"framework.php_errors.log\" config option is deprecated. It will default to \"true\" in 7.0.",
+        "count": 2
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::setUp",
+        "message": "Since symfony/symfony 6.1: Requiring the \"symfony/symfony\" package is deprecated; replace it with standalone components instead.",
+        "count": 1
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::testXmlCacheDirectory",
+        "message": "Since symfony/routing 6.4: The \"annotation\" route type is deprecated, use the \"attribute\" route type instead.",
+        "count": 2
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::testXmlCacheDirectory",
+        "message": "This branch of PhpSpreadsheet is deprecated. Please migrate to release 5 or later ASAP.",
+        "count": 1
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::testXmlCacheDirectory",
+        "message": "Using the \"Twig_Node_Expression_Array\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Expression\\ArrayExpression\" instead.",
+        "count": 1
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\ConfigFunctionalTest::testXmlCacheDirectory",
+        "message": "Using the \"Twig_Node_Expression_Constant\" class is deprecated since Twig version 2.7, use \"Twig\\Node\\Expression\\ConstantExpression\" instead.",
+        "count": 1
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\OdsXlsXlsxFunctionalTest::setUp",
+        "message": "Since symfony/framework-bundle 5.1: Not setting the \"framework.router.utf8\" configuration option is deprecated, it will default to \"true\" in version 6.0.",
+        "count": 1
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\OdsXlsXlsxFunctionalTest::setUp",
+        "message": "Since symfony/framework-bundle 6.1: Not setting the \"framework.http_method_override\" config option is deprecated. It will default to \"false\" in 7.0.",
+        "count": 2
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\OdsXlsXlsxFunctionalTest::setUp",
+        "message": "Since symfony/framework-bundle 6.4: Not setting the \"framework.handle_all_throwables\" config option is deprecated. It will default to \"true\" in 7.0.",
+        "count": 2
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\OdsXlsXlsxFunctionalTest::setUp",
+        "message": "Since symfony/framework-bundle 6.4: Not setting the \"framework.php_errors.log\" config option is deprecated. It will default to \"true\" in 7.0.",
+        "count": 2
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\OdsXlsXlsxFunctionalTest::setUp",
+        "message": "Since symfony/symfony 6.1: Requiring the \"symfony/symfony\" package is deprecated; replace it with standalone components instead.",
+        "count": 1
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Functional\\OdsXlsXlsxFunctionalTest::testSimple",
+        "message": "Since symfony/routing 6.4: The \"annotation\" route type is deprecated, use the \"attribute\" route type instead.",
+        "count": 2
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Twig\\CsvOdsXlsXlsxErrorTwigTest::testDocumentError",
+        "message": "Using the \"Twig_Error_Syntax\" class is deprecated since Twig version 2.7, use \"Twig\\Error\\SyntaxError\" instead.",
+        "count": 1
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Twig\\CsvOdsXlsXlsxTwigTest::testDocumentSimple",
+        "message": "auto_detect_line_endings is deprecated",
+        "count": 1
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Twig\\CsvOdsXlsXlsxTwigTest::testDocumentTemplate",
+        "message": "auto_detect_line_endings is deprecated",
+        "count": 2
+    },
+    {
+        "location": "MewesK\\TwigSpreadsheetBundle\\Tests\\Twig\\CsvOdsXlsXlsxTwigTest::testFunctionIndex",
+        "message": "auto_detect_line_endings is deprecated",
+        "count": 1
+    },
+    {
+        "location": "Mpdf\\AssetFetcher",
+        "message": "Method \"Psr\\Log\\LoggerAwareInterface::setLogger()\" might add \"void\" as a native return type declaration in the future. Do the same in implementation \"Mpdf\\AssetFetcher\" now to avoid errors or add an explicit @return annotation to suppress this message.",
+        "count": 1
+    },
+    {
+        "location": "Mpdf\\Http\\CurlHttpClient",
+        "message": "Method \"Psr\\Log\\LoggerAwareInterface::setLogger()\" might add \"void\" as a native return type declaration in the future. Do the same in implementation \"Mpdf\\Http\\CurlHttpClient\" now to avoid errors or add an explicit @return annotation to suppress this message.",
+        "count": 1
+    },
+    {
+        "location": "Mpdf\\Image\\ImageProcessor",
+        "message": "Method \"Psr\\Log\\LoggerAwareInterface::setLogger()\" might add \"void\" as a native return type declaration in the future. Do the same in implementation \"Mpdf\\Image\\ImageProcessor\" now to avoid errors or add an explicit @return annotation to suppress this message.",
+        "count": 1
+    },
+    {
+        "location": "Mpdf\\Mpdf",
+        "message": "Method \"Psr\\Log\\LoggerAwareInterface::setLogger()\" might add \"void\" as a native return type declaration in the future. Do the same in implementation \"Mpdf\\Mpdf\" now to avoid errors or add an explicit @return annotation to suppress this message.",
+        "count": 1
+    },
+    {
+        "location": "Mpdf\\SizeConverter",
+        "message": "Method \"Psr\\Log\\LoggerAwareInterface::setLogger()\" might add \"void\" as a native return type declaration in the future. Do the same in implementation \"Mpdf\\SizeConverter\" now to avoid errors or add an explicit @return annotation to suppress this message.",
+        "count": 1
+    },
+    {
+        "location": "Mpdf\\Writer\\MetadataWriter",
+        "message": "Method \"Psr\\Log\\LoggerAwareInterface::setLogger()\" might add \"void\" as a native return type declaration in the future. Do the same in implementation \"Mpdf\\Writer\\MetadataWriter\" now to avoid errors or add an explicit @return annotation to suppress this message.",
+        "count": 1
+    },
+    {
+        "location": "Mpdf\\Writer\\ResourceWriter",
+        "message": "Method \"Psr\\Log\\LoggerAwareInterface::setLogger()\" might add \"void\" as a native return type declaration in the future. Do the same in implementation \"Mpdf\\Writer\\ResourceWriter\" now to avoid errors or add an explicit @return annotation to suppress this message.",
+        "count": 1
+    }
+]

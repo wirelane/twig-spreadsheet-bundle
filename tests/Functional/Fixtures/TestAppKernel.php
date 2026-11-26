@@ -38,7 +38,7 @@ class TestAppKernel extends Kernel
      *
      * @throws \Exception
      */
-    public function registerContainerConfiguration(LoaderInterface $loader)
+    public function registerContainerConfiguration(LoaderInterface $loader): void
     {
         $loader->load(sprintf('%s/config/config_%s.yml', $this->getProjectDir(), $this->getEnvironment()));
     }
